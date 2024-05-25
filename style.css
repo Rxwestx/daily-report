@@ -1,5 +1,5 @@
 body {
-  font-family: "Noto Sans JP", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", Helvetica, arial, sans-serif;
   padding: 20px;
 }
 
@@ -35,7 +35,7 @@ form
 }
 
 /*
-input,textarea
+input, textarea
 */
 .input-field {
   width: 100%;
@@ -63,14 +63,42 @@ button
 }
 
 /*
-  .history-link
+  history-link
    */
 .history-link {
   margin-top: 20px;
   text-align: right;
 }
 
-.history-link>a {
+.history-link > a {
   margin: 0 5px;
   color: #000;
+}
+
+/*
+table
+*/
+.table {
+  width: 100%;
+}
+
+.table-head {
+  background-color: #eee;
+}
+
+.table-head th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+  width: 15%;
+}
+
+.table-head th:nth-child(4){
+  width: 55%;
+}
+
+.table-body td {
+  text-align: left;
+  border: 1px solid #000;
+  padding: 10px;
 }
