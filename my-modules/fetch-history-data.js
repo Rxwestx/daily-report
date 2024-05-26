@@ -1,4 +1,4 @@
-// Cloud Firestoreから取得したデータを表示し、main.jsにデータを渡す。
+// Cloud Firestore取得したデータを表示するモジュール。
 export const fetchHistoryData = async (getDocs, collection, db) => {
   let tags = "";
 
